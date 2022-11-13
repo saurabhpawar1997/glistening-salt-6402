@@ -1,12 +1,12 @@
 import { Box, Button, Image, Img, Text, Input } from "@chakra-ui/react";
 import React, { useState } from "react";
 import styled from "styled-components";
-import axios from "axios";
+// import axios from "axios";
 import { useToast } from "@chakra-ui/react";
 import { useNavigate } from "react-router-dom";
 // import { loginsucess } from "../Redux/AuthReducer/action";
-import { useDispatch } from "react-redux";
-import { saveData } from "../Utils/accessLocalStorage";
+// import { useDispatch } from "react-redux";
+// import { saveData } from "../Utils/accessLocalStorage";
 const Inputs = styled.input`
   width: 98%;
   // outline:none;
@@ -19,7 +19,7 @@ const Inputs = styled.input`
 const Login = () => {
   const [form, setform] = useState({});
   const navigate = useNavigate();
-  const dispatch = useDispatch();
+  // const dispatch = useDispatch();
 
   const toast = useToast();
   const Targetvalue = (e) => {
@@ -32,7 +32,6 @@ const Login = () => {
 
   const handlersubmit = (e) => {
     e.preventDefault();
-    console.log(form, "form");
     fetch("https://cronologyback.herokuapp.com/auth/login", {
       method: "POST",
       headers: { "Content-Type": "application/json" },

@@ -15,9 +15,9 @@ import {
 } from "@chakra-ui/react";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "../Assets/cronometer-logo.png";
-import mainlogo from "../Assets/crono-icon-main-nav.png";
-import prologo from "../Assets/pro-icon-main-nav.png";
+import logo from "./Assets/cronometer-logo.png";
+import mainlogo from "./Assets/crono-icon-main-nav.png";
+import prologo from "./Assets/pro-icon-main-nav.png";
 const Navbar = () => {
   const [arrow, setArrow] = useState(false);
 
