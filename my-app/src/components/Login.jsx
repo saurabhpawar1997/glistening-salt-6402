@@ -41,7 +41,7 @@ const Login = () => {
       .then((res) => {
         if (res.token) {
           console.log(res.token);
-          saveData("token", res.token);
+          // saveData("token", res.token);
           toast({
             title: "login successful",
             description: "Your Profile has been creatd on Loseit",
@@ -49,7 +49,7 @@ const Login = () => {
             duration: 5000,
             isClosable: true,
           });
-          navigate("/dairy");
+          navigate("https://cronometer.com/");
         } else {
           toast({
             title: "login failed",
@@ -100,7 +100,7 @@ const Login = () => {
               onChange={Targetvalue}
               defaultValue={""}
             />
-
+            <a href="https://cronometer.com/">....</a>
             <Input
               type={"submit"}
               w={"98%"}

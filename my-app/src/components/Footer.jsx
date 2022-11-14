@@ -7,14 +7,14 @@ import {
     Text,
   } from "@chakra-ui/react";
   import React from "react";
-//   import instagram_logo from "../Assets/social_instagram-icon.png";
-//   import facebook_logo from "../Assets/social_facebook-icon.png";
-//   import twitter_logo from "../Assets/social_twitter-icon.png";
-//   import youtube_logo from "../Assets/social_youtube-icon.png";
-//   import ios_logo from "../Assets/ios-icon.png";
-//   import android_logo from "../Assets/android-icon.png";
+  import instagram_logo from "./Assets/social_instagram-icon.png";
+  import facebook_logo from "./Assets/social_facebook-icon.png";
+  import twitter_logo from "./Assets/social_twitter-icon.png";
+  import youtube_logo from "./Assets/social_youtube-icon.png";
+  import ios_logo from "./Assets/ios-icon.png";
+  import android_logo from "./Assets/android-icon.png";
   import { Link } from "react-router-dom";
-//   import footer_logo from "../Assets/crono-logo-white.png";
+  import footer_logo from "./Assets/crono-logo-white.png";
   
   const Footer = () => {
     return (
