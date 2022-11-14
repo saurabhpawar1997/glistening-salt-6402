@@ -1,4 +1,4 @@
-import { ChevronDownIcon, ChevronUpIcon } from "@chakra-ui/icons";
+// import { ChevronDownIcon, ChevronUpIcon } from "@chakra-ui/icons";
 import {
   Box,
   Button,
@@ -48,7 +48,7 @@ const Navbar = () => {
                   variant="ghost"
                   _hover={{ color: "#FF763F" }}
                 >
-                  Products {arrow ? <ChevronUpIcon /> : <ChevronDownIcon />}
+                  {/* Products {arrow ? <ChevronUpIcon /> : <ChevronDownIcon />} */}
                 </Button>
               </PopoverTrigger>
               <PopoverContent>
